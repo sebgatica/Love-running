@@ -1,28 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
 
-* {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
-body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-color: #3a3a3a;
-}
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     color: #3a3a3a;
+     font-family: 'lato' sans-serif;
+ }
 
-header {
-    background-color: lightcoral;
-}
+ header {
+     background-color: lightcoral;
+ }
 
-main {
-    background-color: lightblue;
+ h1 {
+     font-family: 'oswald' sans-serif;
+ }
 
-    flex: 1 0 auto ;
-}
+ main {
+     background-color: lightblue;
 
-footer {
-    background-color: orange;
-}
+     flex: 1 0 auto;
+ }
+
+ footer {
+     background-color: orange;
+ }
